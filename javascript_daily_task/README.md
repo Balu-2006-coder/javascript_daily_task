@@ -1,96 +1,61 @@
-# 🧮 Basic Calculator
+# 🔐 Password Generator
 
-A simple and clean calculator built using **HTML, Tailwind CSS, and JavaScript**.
+A simple **Password Generator** built using **HTML, Tailwind CSS, and JavaScript**.
 
-This project is beginner-friendly and supports basic arithmetic operations.
+This project is created for practicing **JavaScript basics and DOM manipulation**.
 
 ## 🚀 Features
 
-- Addition (+)
-- Subtraction (-)
-- Multiplication (×)
-- Division (÷)
-- Modulus (%)
-- Decimal numbers
-- Clear button (C)
-- Delete button (DEL)
-- Simple responsive design
+* Generate a random password
+* Password contains letters and numbers
+* Generates an 8-character password
+* Simple beginner-friendly UI
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- Tailwind CSS
-- JavaScript
+* HTML
+* Tailwind CSS
+* JavaScript
+* DOM Manipulation
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
-calculator/
+password-generator/
 │
 ├── index.html
+├── script.js
 └── README.md
+```
 
-▶️ How to Run
+## ▶️ How to Run
 
-1. Download or clone this project.
-2. Open the project folder.
-3. Open "index.html" in your web browser.
-4. Start using the calculator.
+1. Download or clone the project.
+2. Open `index.html` in your browser.
+3. Click the **Generate Password** button.
+4. A random password will be displayed.
 
-No installation or setup is required.
+## 🧠 JavaScript Concepts Practiced
 
-🧑‍💻 How It Works
+* `querySelector()`
+* `addEventListener()`
+* `for` loop
+* `Math.random()`
+* `Math.floor()`
+* String indexing
+* `value`
+* DOM manipulation
 
-The calculator uses three JavaScript variables:
+## 🎯 Beginner Practice
 
-let firstNumber = "";
-let operator = "";
-let secondNumber = "";
+Try adding these features:
 
-For example:
+* Change password length
+* Add special characters
+* Add a Copy button
+* Add a Clear button
+* Allow the user to choose password length
 
-10 + 5
+## 📌 Purpose
 
-The calculator stores:
-
-firstNumber  = 10
-operator     = +
-secondNumber = 5
-
-Then JavaScript calculates the result:
-
-10 + 5 = 15
-
-📚 Beginner Concepts Used
-
-This project helps you learn:
-
-- HTML elements
-- Buttons
-- Input fields
-- Tailwind CSS classes
-- JavaScript variables
-- JavaScript functions
-- "if / else"
-- DOM manipulation
-- Click events
-- Basic arithmetic operators
-
-📌 Future Improvements
-
-You can improve this project by adding:
-
-- Keyboard support
-- Calculation history
-- Dark mode
-- Better error handling
-- Scientific calculator functions
-- Responsive mobile design
-
-📄 License
-
-This project is free to use for learning and personal projects.
-
----
-
-⭐ If you are learning web development, try rebuilding this calculator yourself without looking at the original code.
+This project is made for **beginner JavaScript practice**, especially learning how JavaScript interacts with HTML elements using the DOM.
